@@ -1,0 +1,50 @@
+.header {
+    height: 100px;
+    background: rgb(20, 2, 63);
+    color: goldenrod;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-title {
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 900;
+}
+
+.section {
+    height: 100%;
+    width: 100%;
+}
+.form-body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-title {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+.form-item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.form-item input[type=number] {
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.2em;
+}
+.form-item button {
+    padding: 1.1em;
+    border: none;
+    background: rgb(36, 8, 114);
+    color: goldenrod;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+
